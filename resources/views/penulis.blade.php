@@ -13,6 +13,7 @@
 					<thead>
 
 						<tr>
+							<th>Id</th>
 							<th>Id Penulis</th>
 							<th>Nama Penulis</th>
 							<th>Judul Buku</th>
@@ -21,6 +22,7 @@
 					<tbody>
 						@foreach($buku as $data)
 						<tr>
+							<td>{{ $data->id }}</td>
 							<td>{{ $data->penulis->id }}</td>
 							<td>{{ $data->penulis->nama }}</td>
 							<td>{{ $data->judul }}</td>
