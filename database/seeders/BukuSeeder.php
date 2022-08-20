@@ -13,8 +13,8 @@ class BukuSeeder extends Seeder
      */
     public function run()
     {
-        $buku = ['judul' => 'Buku Kancil'];
+        // $buku = ['judul' => 'Buku Kancil'];
 
-        DB::table('bukus')->insert($buku);
+        // DB::table('bukus')->insert($buku);
     }
 }

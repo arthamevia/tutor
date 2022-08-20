@@ -15,5 +15,6 @@ class DatabaseSeeder extends Seeder
     {
         
         $this->call(PenulisSeeder::class);
+        // $this->call(BukuSeeder::class);
     }
 }
