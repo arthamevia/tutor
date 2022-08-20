@@ -16,6 +16,6 @@ class Buku extends Model
 
         public function penulis() 
         {
-            return $this->belongsTo(Penulis::class,'id_penulis');
+            return $this->belongsToMany(Penulis::class,'id_penulis');
         }
     }

@@ -5,12 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Penulis extends Model
+class Penjual extends Model
 {
-    protected $table = "penulis";
+    protected $table = "penjuals";
     public function Buku()
     {
         return $this->hasMany('App\Buku');
     }
-
 }

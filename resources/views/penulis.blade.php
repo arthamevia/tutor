@@ -17,6 +17,8 @@
 							<th>Id Penulis</th>
 							<th>Nama Penulis</th>
 							<th>Judul Buku</th>
+							<th>id Buku</th>
+							<th>Nama Penulis</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -26,6 +28,8 @@
 							<td>{{ $data->penulis->id }}</td>
 							<td>{{ $data->penulis->nama }}</td>
 							<td>{{ $data->judul }}</td>
+							<td>{{ $data->buku->id}}</td>
+							<td>{{ $data->nama }}</td>
 						</tr>
 						@endforeach
 					</tbody>
